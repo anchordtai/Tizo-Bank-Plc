@@ -8,7 +8,8 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 <!-- TailwindCSS CDN -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-
+<!--favicon-->
+<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
 </head>
 
 <body class="bg-gray-100">
@@ -18,9 +19,9 @@
             <img src="{{ asset('images/tizo-logo.png') }}" alt="Tizo Bank Logo" class="h-12 mx-auto">
             <h1 class="text-3xl font-bold">Tizo Bank</h1>
             <nav class="mt-2">
-                <a href="/" class="px-4 text-white hover:text-gray-200">Home</a>
+                <a href="/home" class="px-4 text-white hover:text-gray-200">Home</a>
                 <a href="/about" class="px-4 text-white hover:text-gray-200">About Us</a>
-                <a href="/contact" class="px-4 text-white hover:text-gray-200">Contact Us</a>
+                <a href="/services" class="px-4 text-white hover:text-gray-200">Our Services</a>
             </nav>
         </div>
     </header>
@@ -62,7 +63,7 @@
         <div class="container mx-auto text-center">
             <h3 class="mb-2 text-xl font-bold">Contact Information</h3>
             <p class="mb-2"><i class="fas fa-envelope"></i> support@tizobank.com</p>
-            <p class="mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p class="mb-2"><i class="fas fa-phone"></i> +2 (348) 12222-3840</p>
             <p class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Tizo Bank Street, Financial District, New York, NY</p>
             <div class="mt-4">
                 <a href="#" class="px-2 text-white hover:text-gray-200"><i class="fab fa-facebook"></i></a>

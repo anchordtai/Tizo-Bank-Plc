@@ -15,7 +15,7 @@
     <!-- Header -->
     <header class="p-4 text-center text-white bg-blue-600">
         <div class="container mx-auto">
-            <img src="{{ asset('images/logo.png') }}" alt="Tizo Bank Logo" class="h-12 mx-auto">
+            <img src="{{ asset('/images/logo.png') }}" alt="Tizo Bank Logo" class="h-12 mx-auto">
             <h1 class="text-3xl font-bold">Tizo Bank</h1>
             <nav class="mt-2">
                 <a href="/" class="px-4 text-white hover:text-gray-200">Home</a>
@@ -67,7 +67,10 @@
         <div class="container mx-auto text-center">
             <h3 class="mb-2 text-xl font-bold">Contact Information</h3>
             <p class="mb-2"><i class="fas fa-envelope"></i> support@tizobank.com</p>
-            <p class="mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p class="mb-2"><i class="fas fa-phone"></i> +2 (348) 12222-3840</p>
             <p class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Tizo Bank Street, Financial District, New York, NY</p>
             <div class="mt-4">
-                <a
+            </div>
+        </div>
+    </footer>
+    </html>

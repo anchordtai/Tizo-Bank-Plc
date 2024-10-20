@@ -8,7 +8,8 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 <!-- TailwindCSS CDN -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-
+<!--favicon-->
+<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
 </head>
 
 <body class="bg-gray-100">
@@ -28,7 +29,7 @@
 
     <!-- Main Content -->
     <div class="container px-4 py-8 mx-auto">
-        <h1 class="mb-6 text-4xl font-bold text-center text-gray-800">About Tizo Bank Plc</h1>
+        <h1 class="mt-12 text-2xl font-bold text-center text-gray-800">About Tizo Bank Plc</h1>
 
         <div class="p-6 bg-white rounded-lg shadow-lg">
             <p class="text-lg leading-relaxed text-gray-700">
@@ -67,7 +68,7 @@
         <div class="container mx-auto text-center">
             <h3 class="mb-2 text-xl font-bold">Contact Information</h3>
             <p class="mb-2"><i class="fas fa-envelope"></i> support@tizobank.com</p>
-            <p class="mb-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p class="mb-2"><i class="fas fa-phone"></i> +2 (348) 12222-3840</p>
             <p class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Tizo Bank Street, Financial District, New York, NY</p>
             <div class="mt-4">
                 <a href="#" class="px-2 text-white hover:text-gray-200"><i class="fab fa-facebook"></i></a>

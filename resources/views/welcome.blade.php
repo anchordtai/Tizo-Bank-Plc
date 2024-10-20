@@ -40,10 +40,11 @@
         </div>
     </div>
 
+    <!--ourservices-->
 
 
 
-    <script type="module" src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}" defer></script>
 </body>
 
 </html>
